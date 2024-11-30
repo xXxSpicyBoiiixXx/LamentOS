@@ -1,5 +1,5 @@
 # LamentOS
-LamentOS is an Arch-based pentesting Linux distribution designed for precision and efficiency.
+LamentOS is a lightweight, Arch-based Linux distribution designed specifically for penetration testers and security professionals. Built on the flexibility and power of Arch Linux, it provides cutting-edge tools, pre-configured workflows, and sleek branding to enhance your pentesting experience.
 
 Lament the breach, master the Arch
 
@@ -12,3 +12,4 @@ Lament the breach, master the Arch
 ## Building the ISO
 Run the following scripts
  ./scripts/build-iso.sh
+qemu-system-x86\_64 -boot d -cdrom out/lamentos.iso -m 2048

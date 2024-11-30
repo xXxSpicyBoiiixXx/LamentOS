@@ -1,0 +1,6 @@
+docker run -it --rm --privileged -v $(pwd):/workspace archlinux bash -c "
+  pacman -Syu --noconfirm archiso &&
+  cd /workspace/LamentOS-ISO &&
+  mkarchiso -v -w /tmp/archiso-tmp -o /workspace/out .
+"
+
