@@ -1,0 +1,10 @@
+arch-install-scripts
+base
+linux
+linux-firmware
+nmap
+metasploit
+wireshark-qt
+john
+hashcat
+aircrack-ng
